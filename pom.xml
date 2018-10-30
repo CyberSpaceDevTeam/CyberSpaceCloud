@@ -28,26 +28,32 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-        </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-data-elasticsearch</artifactId>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -97,33 +103,40 @@
             <version>1.1.0</version>
         </dependency>
 
+        <!-- Apache Shiro 权限架构 -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
         <!--<dependency>-->
-            <!--<groupId>org.apache.poi</groupId>-->
-            <!--<artifactId>poi-ooxml</artifactId>-->
-            <!--<version>3.10-FINAL</version>-->
+        <!--<groupId>org.apache.poi</groupId>-->
+        <!--<artifactId>poi-ooxml</artifactId>-->
+        <!--<version>3.10-FINAL</version>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>org.jeecg</groupId>-->
-            <!--<artifactId>easypoi-base</artifactId>-->
-            <!--<version>2.4.0</version>-->
+        <!--<groupId>org.jeecg</groupId>-->
+        <!--<artifactId>easypoi-base</artifactId>-->
+        <!--<version>2.4.0</version>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>org.jeecg</groupId>-->
-            <!--<artifactId>easypoi-annotation</artifactId>-->
-            <!--<version>2.4.0</version>-->
+        <!--<groupId>org.jeecg</groupId>-->
+        <!--<artifactId>easypoi-annotation</artifactId>-->
+        <!--<version>2.4.0</version>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>org.jeecg</groupId>-->
-            <!--<artifactId>easypoi-web</artifactId>-->
-            <!--<version>2.4.0</version>-->
+        <!--<groupId>org.jeecg</groupId>-->
+        <!--<artifactId>easypoi-web</artifactId>-->
+        <!--<version>2.4.0</version>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-security</artifactId>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-security</artifactId>-->
         <!--</dependency>-->
 
     </dependencies>

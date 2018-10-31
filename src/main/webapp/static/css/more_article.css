@@ -42,12 +42,21 @@
     margin-left: 5%;
     /*background-color: #00b4ef;*/
     float: left;
+    /*position: absolute;*/
+    /*background: inherit;*/
+    /*z-index: 11;*/
+    /*box-shadow: 0 0 10px 6px rgba(0, 0, 0, .5);*/
 }
 
 .more_art_area {
+    margin-top: 2%;
     width: 30%;
     height: 1200px;
     margin-left: 10%;
     /*background-color: #9f9c9e;*/
     float: left;
+    /*position: absolute;*/
+    /*background: inherit;*/
+    /*z-index: 12;*/
+    /*box-shadow: 0 0 10px 6px rgba(0, 0, 0, .5);*/
 }

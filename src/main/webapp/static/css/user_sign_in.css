@@ -1,13 +1,13 @@
 .sign_body {
     margin: auto;
     background-size: auto;
-    background: url("../img/sign_in.jpg") no-repeat;
+    /*background: url("../img/sign_in.jpg") no-repeat;*/
 }
 
 .sign_nav {
     height: 65px;
     width: 100%;
-    background-color: #a9f9fa;
+    /*background-color: #a9f9fa;*/
     position: fixed;
     opacity: 0.8;
 }
@@ -20,11 +20,11 @@
 
 .sign_nav_li1 {
     width: 60%;
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 .sign_half {
-    height: 900px;
+    height: 650px;
 }
 
 .sign_h {

@@ -5,7 +5,7 @@
 .fav_nav {
     height: 65px;
     width: 100%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     position: fixed;
 }
 
@@ -33,7 +33,7 @@
 
 .fav_foot {
     height: 100px;
-    background-color: #9f9c9e;
+    /*background-color: #9f9c9e;*/
 }
 
 .fav_user_info {
@@ -43,17 +43,20 @@
 }
 
 .fav_user_info_area1 {
+    margin-top: 2%;
+    margin-left: -1%;
     width: 30%;
     height: 1200px;
     float: left;
-    background-color: #00b4ef;
+    /*background-color: #00b4ef;*/
 }
 
 .fav_user_info_area2 {
+    margin-top: 2%;
     width: 70%;
     height: 1200px;
     float: left;
-    background-color: #d7fffb;
+    /*background-color: #d7fffb;*/
 }
 
 .fav_user_info_area2_fav1 {

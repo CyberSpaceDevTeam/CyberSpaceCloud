@@ -5,7 +5,7 @@
 .user_nav {
     height: 65px;
     width: 100%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     position: fixed;
 }
 
@@ -28,33 +28,37 @@
 }
 
 .user_activity {
-    width: 100%;
+    width: 90%;
     height: 1000px;
-    background-color: #95c8bd;
+    /*background-color: #95c8bd;*/
 }
 
 .user_activity_area {
-    width: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 50%;
     height: 1000px;
-    background-color: #c887c2;
+    /*background-color: #c887c2;*/
     float: left;
 }
 
 .user_activity_userInfo {
-    width: 30%;
-    height: 400px;
-    background-color: #d7fffb;
+    width: 35%;
+    height: 350px;
+    margin-left: 6%;
+    /*background-color: #d7fffb;*/
     float: left;
 }
 
 .user_activity_target {
-    width: 30%;
-    height: 600px;
-    background-color: chartreuse;
+    width: 35%;
+    height: 500px;
+    margin-left: 5%;
+    /*background-color: chartreuse;*/
     float: left;
 }
 
 .user_foot {
     height: 100px;
-    background-color: #9f9c9e;
+    /*background-color: #9f9c9e;*/
 }

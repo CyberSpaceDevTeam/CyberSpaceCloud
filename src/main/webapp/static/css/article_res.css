@@ -35,7 +35,7 @@
     width: 50%;
     height: 1000px;
     margin-left: 10%;
-    background-color: #a8a3a9;
+    /*background-color: #a8a3a9;*/
     float: left;
 }
 
@@ -48,7 +48,7 @@
     height: 400px;
     margin-right: 10%;
     margin-left: 100%;
-    background-color: darkorange;
+    /*background-color: darkorange;*/
     /*float: left;*/
 }
 
@@ -57,7 +57,7 @@
     height: 400px;
     margin-right: 10%;
     margin-left: 100%;
-    background-color: slateblue;
+    /*background-color: slateblue;*/
     /*float: left;*/
 }
 
@@ -65,11 +65,11 @@
     width: 40%;
     height: 300px;
     margin-left: 15%;
-    background-color: #c8487f;
+    /*background-color: #c8487f;*/
     float: left;
 }
 
 .article_foot {
     /*height: 100px;*/
-    background-color: #5fc8c5;
+    /*background-color: #5fc8c5;*/
 }

@@ -5,7 +5,7 @@
 .upload_nav {
     height: 65px;
     width: 100%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     position: fixed;
 }
 
@@ -15,7 +15,7 @@
 
 .upload_nav ul li {
     float: left;
-    color: #fff;
+    /*color: #fff;*/
     list-style: none;
     line-height: 50%;
 }
@@ -41,10 +41,10 @@
     width: 60%;
     height: 1000px;
     margin-left: 10%;
-    background-color: #d7fffb;
+    /*background-color: #d7fffb;*/
 }
 
 .upload_foot {
     height: 100px;
-    background-color: #9f9c9e;
+    /*background-color: #9f9c9e;*/
 }

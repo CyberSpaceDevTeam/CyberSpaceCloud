@@ -1,13 +1,13 @@
 .register_body {
     margin: auto;
     background-size: auto;
-    background: url("../img/register1.JPG") no-repeat;
+    /*background: url("../img/register1.JPG") no-repeat;*/
 }
 
 .register_nav {
     height: 65px;
     width: 100%;
-    background-color: #6ee1fa;
+    /*background-color: #6ee1fa;*/
     opacity: 0.8;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .register_h {
-    height: 900px;
+    height: 750px;
 }
 
 .register_foot {

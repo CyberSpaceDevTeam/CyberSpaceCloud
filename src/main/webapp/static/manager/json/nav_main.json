@@ -38,13 +38,18 @@
       ]
     },
     {
-      "text": "数据统计",
+      "text": "数据分析",
       "icon": "&#xe61e;",
       "subset": [
         {
-          "text": "推荐算法",
+          "text": "模型检测",
           "icon": "&#xe621;",
           "href": "assets/data_analysis.html"
+        },
+        {
+          "text": "实时点击",
+          "icon": "&#xe621;",
+          "href": "assets/bubble-gradient.html"
         }
       ]
     }

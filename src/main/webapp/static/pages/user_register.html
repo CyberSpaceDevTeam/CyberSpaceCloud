@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="shortcut icon" href="../img/favicon.ico"/>
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <style>
+        .bg {
+            width: 100%;
+            height: 1280px;
+            position: relative;
+            background: url("../img/b22.jpg") no-repeat fixed;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+
+        .bg:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: inherit;
+            filter: blur(3px);
+            z-index: 1;
+        }
+
+    </style>
 </head>
 <body class="register_body">
 <!--nav-->
@@ -20,9 +43,9 @@
         </div>
     </div>
 </div>
-
-<div class="register_h">
-    <div class="container">
+<div class="bg">
+    <div class="register_h drag" style="width: 40%;margin-top: 5%;margin-left: 31%">
+        <div class="container" style="margin-left: -27%;margin-top: -10%;">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
                 <form class="form-horizontal">
@@ -72,8 +95,8 @@
         </div>
 
     </div>
+    </div>
 </div>
-
 <!--foot-->
 <footer class="container-fluid foot-wrap">
     <!--采用container，使得页尾内容居中 -->

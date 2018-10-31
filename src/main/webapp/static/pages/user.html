@@ -12,6 +12,29 @@
     <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .bg {
+            width: 100%;
+            height: 1280px;
+            position: relative;
+            background: url("../img/b12.jpg") no-repeat fixed;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+
+        .bg:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: inherit;
+            filter: blur(3px);
+            z-index: 1;
+        }
+
+    </style>
 </head>
 <body class="user_body">
 <!--nav-->
@@ -31,62 +54,63 @@
         <li class="upload_nav_li4" role="presentation"><a>注销</a></li>
     </ul>
 </div>
-<!--activity-->
-<div class="user_activity">
-    <div class="user_activity_area">
-        <div class="panel panel-default">
-            <div class="panel-heading">动态</div>
-            <div class="panel-body">
-                动态详情
-            </div>
-        </div>
-    </div>
-    <!--userInfo-->
-    <div>
-        <div class="user_activity_userInfo">
+<div class="bg">
+    <!--activity-->
+    <div class="user_activity drag" style="margin-top: 3%;margin-left: 5%">
+        <div class="user_activity_area">
             <div class="panel panel-default">
-                <div class="panel-heading">Panel heading without title</div>
-                <div class="panel-body" style="height: 300px">
-                    Panel content
+                <div class="panel-heading">动态</div>
+                <div class="panel-body">
+                    动态详情
                 </div>
             </div>
         </div>
-        <div class="user_activity_target">
-            <div class=" col-xs-12 col-lg-12 col-md-6">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                    <a href="#" class="list-group-item">Morbi leo risus</a>
-                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+        <!--userInfo-->
+        <div style="margin-top: 2%">
+            <div class="user_activity_userInfo">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <div class="panel-body" style="height: 300px">
+                        Panel content
+                    </div>
                 </div>
             </div>
-            <div class=" col-xs-12 col-lg-12 col-md-6">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                    <a href="#" class="list-group-item">Morbi leo risus</a>
-                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+            <div class="user_activity_target" style="margin-top: 2%">
+                <div class=" col-xs-12 col-lg-12 col-md-6">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item">Morbi leo risus</a>
+                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                    </div>
                 </div>
-            </div>
-            <div class=" col-xs-12 col-lg-12 col-md-6">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                    <a href="#" class="list-group-item">Morbi leo risus</a>
-                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                <div class=" col-xs-12 col-lg-12 col-md-6">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item">Morbi leo risus</a>
+                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                    </div>
                 </div>
+                <!--<div class=" col-xs-12 col-lg-12 col-md-6">-->
+                <!--<div class="list-group">-->
+                <!--<a href="#" class="list-group-item active">-->
+                <!--Cras justo odio-->
+                <!--</a>-->
+                <!--<a href="#" class="list-group-item">Dapibus ac facilisis in</a>-->
+                <!--<a href="#" class="list-group-item">Morbi leo risus</a>-->
+                <!--<a href="#" class="list-group-item">Porta ac consectetur ac</a>-->
+                <!--<a href="#" class="list-group-item">Vestibulum at eros</a>-->
+                <!--</div>-->
+                <!--</div>-->
             </div>
         </div>
-
     </div>
 </div>
 <!--foot-->

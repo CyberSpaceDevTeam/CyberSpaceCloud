@@ -5,7 +5,7 @@
 .setting_nav {
     height: 65px;
     width: 100%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     position: fixed;
 }
 
@@ -33,7 +33,7 @@
 
 .setting_foot {
     /*height: 100px;*/
-    background-color: #9f9c9e;
+    /*background-color: #9f9c9e;*/
 }
 
 .form-group a {
